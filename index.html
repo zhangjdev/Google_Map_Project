@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	  <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+  	<title>Google Map App by un0s2</title>
+  	<link rel="stylesheet" href="css/styles.css" />
+  </head>
+
+  <body>
+
+    <img id="arrow" src="img/rightToLeft.svg" alt="showOrHideButton">
+    <section id="listSection">
+
+      <!-- 相对于 value binding，textInput 可以事实反馈输入的信息 -->
+      <!-- valueUpdate: 'afterkeydown' 是 textInput 的组合技 -->
+      <input type="text" id="searchBar" placeholder="Search here..." data-bind="textInput: query, valueUpdate: 'afterkeydown'" autocomplete="off">
+      <section class="roll">
+        <ul data-bind="template: {name: 'markerArray', foreach:markersArray}">
+        </ul>
+        <script type="text/html" id="markerArray">
+          <div data-bind="visible: onTheView">
+            <a href="#" data-bind="attr: {id: markerId}">
+              <li>
+                <strong data-bind="text: title"></strong>
+                <p data-bind="text: address"></p>
+                <p data-bind="text: city"></p>
+              </li>
+            </a>
+          </div>
+        </script>
+      </section>
+    </section>
+
+    <div id="map">Loading the Application...</div>
+  </body>
+
+  <script src="js/jquery-3.1.0.min.js"></script>
+  <script src="js/knockout-3.4.0.js"></script>
+
+  <script src="js/data.js" ></script>
+  <script src="js/flicker.js" ></script>
+  <script src="js/app.js" ></script>
+  
+</html>

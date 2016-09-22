@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.2.2 (9983) - http://www.bohemiancoding.com/sketch -->
+    <title>Slice 1</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="arrow副本" sketch:type="MSLayerGroup" transform="translate(16.000000, 16.000000) rotate(-180.000000) translate(-16.000000, -16.000000) " fill="#121313">
+            <g id="Chevron_Right_Circle" sketch:type="MSShapeGroup">
+                <path d="M16,0 C7.163,0 0,7.163 0,16 C0,24.836 7.163,32 16,32 C24.836,32 32,24.836 32,16 C32,7.163 24.836,0 16,0 L16,0 Z M16,30 C8.28,30 2,23.72 2,16 C2,8.28 8.28,1.969 16,1.969 C23.72,1.969 30,8.28 30,16 C30,23.72 23.72,30 16,30 L16,30 Z" id="Shape"></path>
+                <path d="M13.808,8.271 C13.417,7.877 12.784,7.877 12.394,8.271 C12.003,8.666 12.003,9.305 12.394,9.7 L18.589,15.985 L12.393,22.27 C12.002,22.664 12.002,23.304 12.393,23.699 C12.784,24.093 13.417,24.093 13.807,23.699 L20.707,16.7 C21.087,16.315 21.088,15.656 20.707,15.271 L13.808,8.271 L13.808,8.271 Z" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>
